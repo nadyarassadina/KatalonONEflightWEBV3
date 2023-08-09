@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>vendor</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>05a5eff8-9f3b-4cac-a0f6-3d2e3be35859</testSuiteGuid>
+   <testCaseLink>
+      <guid>b3896cf6-6676-4bdf-9899-231456c23e00</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/logInAsSuperAdmin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4793c2cb-dbf1-43ce-a3d7-5fdccd54d9f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/vendor/openListOfVendor</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>068185b4-066f-45b5-992f-c47899e45314</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/vendor/addNewVendor</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6f3be54c-3a17-49d1-a7b2-5ef1369498f2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/vendor/addNewVendor</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6f3be54c-3a17-49d1-a7b2-5ef1369498f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>43aebce2-9a65-4c67-ba0c-55753aac4f59</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6f3be54c-3a17-49d1-a7b2-5ef1369498f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>0e0e6652-eecb-481c-9b0d-94d93bb796f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6f3be54c-3a17-49d1-a7b2-5ef1369498f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status</value>
+         <variableId>465618c8-c54b-4c76-9dcd-3d48dd8a59d6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6f3be54c-3a17-49d1-a7b2-5ef1369498f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>license</value>
+         <variableId>bf20cfc2-3d1c-4523-b28f-a91d55e2dca5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6f3be54c-3a17-49d1-a7b2-5ef1369498f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>licenseDate</value>
+         <variableId>a3ebfecf-dede-44b9-a2fd-3564d515e556</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6f3be54c-3a17-49d1-a7b2-5ef1369498f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>23023f8a-9a49-4820-a69e-62a2f451d98f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://stg-app.ops135.com/')
+
+WebUI.setText(findTestObject('AMS/logIn/email_textBox'), 'NadyaRassadina@ONEflight.net')
+
+WebUI.setEncryptedText(findTestObject('AMS/logIn/password_textBox'), 'p4y+y39Ir5PQCSRaeTT/mA==')
+
+WebUI.click(findTestObject('AMS/logIn/signIn_button'))
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>createVendor_button</name>
+   <tag></tag>
+   <elementGuidId>492bd131-9785-499a-8675-dac89c2e2c1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.d-none.d-md-inline-block.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c0287a91-a45f-4cb6-adfb-52103af66b5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>19a24725-3b3d-4f1c-9b13-6f3e4d4957ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-none d-md-inline-block btn btn-primary</value>
+      <webElementGuid>9b2faced-065e-4ae6-8fd2-e4dc923f33f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Vendor</value>
+      <webElementGuid>7486707e-68b6-47fa-8b71-99e014fb1778</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-controls&quot;)/div[@class=&quot;row justify-content-between align-content-center align-items-center&quot;]/div[@class=&quot;col-5 col-md-6 text-center text-md-start&quot;]/button[@class=&quot;d-none d-md-inline-block btn btn-primary&quot;]</value>
+      <webElementGuid>9a5491c3-20df-4db0-a6f0-065279afda28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>331d0697-fd46-4c31-8d88-7973a9370631</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='table-controls']/div/div/button[2]</value>
+      <webElementGuid>15c30227-4100-4f5f-956b-919f36fb3ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Vendor'])[1]/following::button[1]</value>
+      <webElementGuid>a2e58205-8a76-4744-8a38-79b2c8e30cee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::button[2]</value>
+      <webElementGuid>8b544426-8ea3-4ef2-ba30-b0fd5a093f67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operator'])[1]/preceding::button[2]</value>
+      <webElementGuid>faa5b715-8ff1-4338-ad1b-f0265f41b874</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/button[2]</value>
+      <webElementGuid>9cd16bcf-44d0-42a4-9889-43613d2e74c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create Vendor' or . = 'Create Vendor')]</value>
+      <webElementGuid>266d69b7-af29-43e1-aef0-85f10e4eb13d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

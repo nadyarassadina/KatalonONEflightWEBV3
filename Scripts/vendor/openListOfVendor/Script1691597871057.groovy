@@ -17,27 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('AMS/vendor/addVendor/createVendor_button'))
+WebUI.click(findTestObject('AMS/mainMenu/adminDropDown/admin_tab'))
 
-WebUI.setText(findTestObject('AMS/vendor/addVendor/name_textBox'), name)
+WebUI.mouseOver(findTestObject('AMS/mainMenu/adminDropDown/management_tab'))
 
-WebUI.setText(findTestObject('AMS/vendor/addVendor/description_textBox'), description)
-
-WebUI.click(findTestObject('AMS/vendor/addVendor/noneServices_button'))
-
-WebUI.click(findTestObject('AMS/vendor/addVendor/none_checkBox'))
-
-WebUI.click(findTestObject('AMS/vendor/addVendor/carRental_checkBox'))
-
-WebUI.click(findTestObject('AMS/vendor/addVendor/catering_checkBox'))
-
-WebUI.click(findTestObject('AMS/vendor/addVendor/noneServices_button'))
-
-WebUI.setText(findTestObject('AMS/vendor/addVendor/license_textBox'), license)
-
-WebUI.setText(findTestObject('AMS/vendor/addVendor/licenseDate_textBox'), licenseDate)
-
-WebUI.setText(findTestObject('AMS/vendor/addVendor/url_textBox'), url)
-
-WebUI.click(findTestObject('AMS/vendor/addVendor/submit_button'))
+WebUI.click(findTestObject('AMS/mainMenu/adminDropDown/vendors_tab'))
 
